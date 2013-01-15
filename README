@@ -1,0 +1,12 @@
+This is a visualization based on on the monoscope plugin from
+gstreamer.
+
+Display is split in half horizontally. On upper part a real-time
+oscilloscope is drawn. On lower part a voiceprint is drawn.
+
+Voiceprint is a time-varying spectral representation (forming an image)
+that shows how the spectral density of a signal varies with time.
+
+Display size can be changed. All positions are calculated. This
+visualization is heavy, it needs 80% of CPU of 2.60 GHz (1 core)
+at 1600 x 900 pixels.
